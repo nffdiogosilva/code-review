@@ -14,6 +14,8 @@ TODO: add the direct link each file once it's available on github
     $ cd <project_dir>
     $ docker-compose up
 
+To login, use the already available user: "admin" and password: "admin"
+
 The only dependency needed to run it is docker (and docker-compose)
 
 ##  What's in code_review project?

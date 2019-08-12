@@ -2,7 +2,7 @@
 *.pyc
 
 # Databases
-*.sqlite
+# *.sqlite
 
 # Project related
 /public/static/*
