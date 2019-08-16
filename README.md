@@ -9,6 +9,9 @@ A "technical test" done in a Django Rest Framework project
 * src/myuser/views.py: My take on it, displaying how I would write the views module
 
 ## To run project (with docker):
+
+#### Dependencies needeed: docker
+
     $ git clone <repo_url>
     $ cd <project_dir>
     
@@ -17,9 +20,10 @@ A "technical test" done in a Django Rest Framework project
     # To access the container shell
     $ docker-compose exec web bash
 
-#### Dependencies needeed: docker
-
 ## To run project (with local computer):
+
+#### Dependencies needeed: python 3 and pipenv.
+
     $ git clone <repo_url>
     $ cd <project_dir>
     $ pipenv install
@@ -27,8 +31,6 @@ A "technical test" done in a Django Rest Framework project
 
     # To start django webserver on http://127.0.0.1:8000
     $ cd src && ./manage.py runserver
-
-#### Dependencies needeed: python 3 and pipenv.
 
 ### To login, use the already available user: "admin" and password: "admin"
 
