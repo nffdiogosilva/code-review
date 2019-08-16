@@ -30,8 +30,8 @@ class UsersViewSet(viewsets.ModelViewSet):
 # For that, it needs to be indent 4 spaces (For more information, please refer to: https://www.django-rest-framework.org/api-guide/viewsets/)
 def create(self, request):
         # This authentication validation, regarding code redability, and taking into account the SRP (Single Responsability Principle),
-        # should be available through a function decorator, or in this case, in the permission_classes list, bellow the queryset option,
-        #  taking advantage of the 'permissions' logic already given by
+        # should be available through a function decorator, or in this case, in the permission_classes list, bellow the queryset property,
+        # taking advantage of the 'permissions' logic already given by
         # Django Rest Framework (please refer to: https://www.django-rest-framework.org/api-guide/permissions/#permissions)
         # i.e.: permission_classes = [IsAuthenticated]
         # Using the permission_classes list above would assure that a rightful response would be given,
@@ -39,7 +39,7 @@ def create(self, request):
         # the right one would be: 401 (assuming the highest priority authentication class does use WWW-Authenticate headers)
         # For more information, please refer to: https://www.django-rest-framework.org/api-guide/permissions/#how-permissions-are-determined
         if not request.user.is_authenticated():
-            # As I already hinted in the above statement, this Response object is not returning the correct status code,
+            # As I already hinted in the above statement, this Response object it's not returning the correct status code,
             # given the current situation. In this case, the right status code would be: 401 (for the reasons I've already wrote in the above comment)
             return Response("You should be authenticated")
         serializer = UserSerializer(data=request.data)
