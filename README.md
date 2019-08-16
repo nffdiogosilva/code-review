@@ -4,9 +4,9 @@ A "technical test" done in a Django Rest Framework project
 
 # Which files should you look for to check my code review and my own take on the subject?
 
-* src/myuser/views_original.py: The original file, available at the given [gist](https://gist.githubusercontent.com/jbma/3b7e26c595f2e4c05525b0d70f4b3605/raw/ca54b46d8df6694daab596fe246a5cd404b3c30a/views.py)
-* src/myuser/views_code_review.py: The original file, but with my comments for each code snippet that deserved my evaluation.
-* src/myuser/views.py: My take on it, displaying how I would write the views module
+* [src/myuser/views_original.py](https://github.com/nffdiogosilva/code-review/blob/master/src/myuser/views_original.py): The original file, available at the given [gist](https://gist.githubusercontent.com/jbma/3b7e26c595f2e4c05525b0d70f4b3605/raw/ca54b46d8df6694daab596fe246a5cd404b3c30a/views.py)
+* [src/myuser/views_code_review.py](https://github.com/nffdiogosilva/code-review/blob/master/src/myuser/views_code_review.py): The original file, but with my comments for each code snippet that deserved my evaluation.
+* [src/myuser/views.py](https://github.com/nffdiogosilva/code-review/blob/master/src/myuser/views.py): My take on it, displaying how I would write the views module
 
 ## To run project (with docker):
 
