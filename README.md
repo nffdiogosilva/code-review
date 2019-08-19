@@ -10,7 +10,7 @@ A "technical test" done in a Django Rest Framework project
 
 ## To run project (with docker):
 
-#### Dependencies needeed: docker
+#### Dependencies needed: docker
 
     $ git clone <repo_url>
     $ cd <project_dir>
@@ -22,7 +22,7 @@ A "technical test" done in a Django Rest Framework project
 
 ## To run project (with local computer):
 
-#### Dependencies needeed: python 3 and pipenv.
+#### Dependencies needed: python 3 and pipenv.
 
     $ git clone <repo_url>
     $ cd <project_dir>
